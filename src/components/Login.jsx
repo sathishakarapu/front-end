@@ -272,7 +272,7 @@ const Login = () => {
                         <T1 type='submit' value='login'>Sign In</T1>
                     </form>
                         <Message>{message}</Message>
-                    <T2>Dont, have an account ? <Link to="/signup" style={{ color: '#7D8CC4' }}>Sign Up</Link></T2>
+                    <T2>Dont, have an account ? <Link to="/" style={{ color: '#7D8CC4' }}>Sign Up</Link></T2>
                 </Background>
             </Container>
         </>
